@@ -1,0 +1,43 @@
+<html>
+<head><h1> Welcome To Hotel Sohel </head><br><hr></h1>
+
+
+<head><title> HTML FORM</title></head>
+<body>
+
+<body> Login Here:</body><br><br>
+
+<form action = "action.php">
+
+<label for ="username"> Username:
+<input type="text" placeholder="Username"></label><br><br>
+
+<label for = "password"> Password:
+<input type="password" placeholder="Password"></label><br><br>
+
+
+<label for=bg> Burger
+<input type= "radio" Value="Burger" name="Menu" id="bg"></label>
+
+<label for=pz> Pizza
+<input type= "radio" Value="Pizza" name="Menu" id="pz"></label><br><br>
+
+
+
+<label for = "sd"> Cake
+<input type = "checkbox" Sohel="Menu" id="sd"></label>
+
+<label for = "fr"> Fries
+<input type = "checkbox" Sohel="Menu" id="fr"></label>
+
+<label for = "cf"> Coffee
+<input type = "checkbox" Sohel="Menu" id="cf"></label><br><br><br>
+
+
+<select> Select Here
+<Option Value = "Eat Here"> Eat Here </Option>
+<Option Value = "Home Delivery"> Home Delivery</Option>
+
+</form>
+</body>
+</html>
