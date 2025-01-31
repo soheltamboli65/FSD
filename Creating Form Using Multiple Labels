@@ -1,20 +1,22 @@
 <html>
-<head><h1> Welcome To Hotel Sohel </head><br><hr></h1>
+<head ><h1 style="color:PURPLE"> Welcome To Hotel Sohel </head><br><hr></h1>
 
 
 <head><title> HTML FORM</title></head>
-<body>
-
-<body> Login Here:</body><br><br>
+<body bgcolor = "Pink">
+<body><b> Login Here:</body><br><br></b>
 
 <form action = "action.php">
 
-<label for ="username"> Username:
+<label for ="username"> <b> Username:</b>
 <input type="text" placeholder="Username"></label><br><br>
 
-<label for = "password"> Password:
+<label for = "password"><b> Password:
 <input type="password" placeholder="Password"></label><br><br>
 
+
+<label for=dt>Select Date
+<input type="date" <br><br><br>
 
 <label for=bg> Burger
 <input type= "radio" Value="Burger" name="Menu" id="bg"></label>
@@ -23,7 +25,7 @@
 <input type= "radio" Value="Pizza" name="Menu" id="pz"></label><br><br>
 
 
-
+ 
 <label for = "sd"> Cake
 <input type = "checkbox" Sohel="Menu" id="sd"></label>
 
@@ -34,9 +36,14 @@
 <input type = "checkbox" Sohel="Menu" id="cf"></label><br><br><br>
 
 
-<select> Select Here
+<select> <Option Value = "Select Here"> Select </Option>
+
 <Option Value = "Eat Here"> Eat Here </Option>
-<Option Value = "Home Delivery"> Home Delivery</Option>
+<Option Value = "Home Delivery"> Home Delivery</Option> <br><br>
+
+<input type = "Submit" value="submit" style ="background-color:cyan"><br><br>
+
+ <div class="forgot-password"><a href="#">Forgotten password
 
 </form>
 </body>
