@@ -1,0 +1,14 @@
+<DOCTYPE! HTML>
+<html>
+<head> Example</head>
+<title> javascript</title>
+<body>
+	<script>
+		let a=10;
+		let b=20;
+		sum=a+b;
+		document.write("The Addition is:", sum);
+
+	</script>
+</body>
+</html>n 

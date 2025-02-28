@@ -1,0 +1,11 @@
+<DOCTYPE! HTML>
+<html>
+<head> Example</head>
+<title> javascript</title>
+<body>
+	<script>
+		document.write("Hello and welcome to Javascript Program")
+
+	</script>
+</body>
+</html>n 
