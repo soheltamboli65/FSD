@@ -1,0 +1,104 @@
+<html>
+<head><h1 align ="center">JSPM UNIVERSITY PUNE </h1><br></head><b><hr></b>
+
+<head><h3 align ="center">Student Grade Report </h3></head>
+
+<b>FACULTY &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp </b> : Faculty Of Science & Technology<br>
+<b>PROGRAM &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp&nbsp</b> 	: Bachelar Of Computer Application<br>
+<b>SEMESTER &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </b> 	: B.C.A. SEM II<br>
+<b>EXAM	  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp &nbsp &nbsp&nbsp&nbsp &nbsp &nbsp </b> 	: APR./MAY 2024 <b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp &nbsp &nbsp 
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp ABC ID&nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp </b> : 357525212799<br>
+<b>PRN &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</b> 	: 22356030268 <b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp &nbsp &nbsp 
+&nbsp  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbspMOTHER'S NAME &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp </b> : SUNITA<br>
+<b>STUDENT NAME&nbsp </b> 	: Kishor Lakshman Thorat <b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 
+&nbsp  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp &nbsp YEAR OF ADDMISSION &nbsp &nbsp&nbsp </b> : 2023-24<br>
+<b>SCHOOL &nbsp &nbsp &nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp</b> 		: School Of Basic & Applied Sciences, Pune<br><hr>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blank Table</title>
+</head>
+<body>
+
+<table border="1">
+    <tr>
+	<th>COURSE CODE</th>
+        <th>COURSE NAME </th>
+        <th>COURSE CREDITS</th>
+        <th>GRADE EARNED</th>
+    </tr>
+    <tr>
+	<td>230GCAB04_02</td>
+        <td>Computer Architecture</td>
+        <td>2.00</td>
+        <td>A+</td>
+    </tr>
+    <tr>
+	<td>230MAB03_02</td>
+        <td>Linear Algebra</td>
+        <td>3.00</td>
+        <td>O</td>
+    </tr>
+    <tr>
+	<td>230GSCB02_02</td> 
+        <td>Database Management System</td>
+        <td>2.00</td>
+        <td>A+</td>
+    </tr>
+    <tr>
+	<td>230GCAB05_02</td>
+        <td>Operating System</td>
+        <td>2.00</td>
+        <td>A+</td>
+    </tr>
+    <tr>
+	<td>230VBBB03_02</td>
+        <td>Essentials Of HRM</td>
+        <td>2.00</td>
+        <td>A+</td>
+    </tr>
+    <tr>
+	<td>230GCAB06_02</td>
+        <td>Programming with C++</td>
+        <td>3.00</td>
+        <td>O</td>
+    </tr>
+    <tr>
+	<td>230IDCB01_02</td>
+        <td>Design Thinking & Creativity</td>
+        <td>1.50</td>
+        <td>A+</td>
+    </tr>
+    <tr>
+	<td>230GCAB04_02</td>
+        <td>Effective Communication Skills</td>
+        <td>2.00</td>
+        <td>A+</td>
+    </tr>
+    <tr>
+	<td>230UNEB01_02</td>
+        <td>Database management System Lab</td>
+        <td>1.00</td>
+        <td>O</td>
+    </tr>
+    <tr>
+	<td>230GSCB01_02</td>
+        <td>Mindfullness & Welbeing</td>
+        <td>1.50</td>
+        <td>B</td>
+    </tr>
+    <tr>
+	<td>230GCAB07_02</td>
+        <td>Internship/Fied Project/Community Enagagement</td>
+        <td>2.00</td>
+        <td>B+</td>
+    </tr>
+</table>
+</body>
+</html><hr>
+
+
+
