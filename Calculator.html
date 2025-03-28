@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculator</title>
+</head>
+
+<body>
+  <h1 id="heading">Calculate Here</h1>
+
+  <button onclick="Addition()">Calculate</button>
+
+  <script>
+    let a = 20;
+    let b = 30;
+
+    function Addition() {
+      let c = a + b;
+      document.getElementById("heading").innerHTML = "Result: " + c;
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Calculator</title>
+</head>
+<body>
+  <h1 id="heading">Calculate Here</h1>
+
+  <label for="num1">Enter first number:</label>
+  <input type="number" id="num1" name="num1">
+
+  <label for="num2">Enter second number:</label>
+  <input type="number" id="num2" name="num2">
+
+  <br><br>
+
+  <button onclick="performCalculation('+')">Add</button>
+  <button onclick="performCalculation('-')">Subtract</button>
+  <button onclick="performCalculation('*')">Multiply</button>
+  <button onclick="performCalculation('/')">Divide</button>
+
+  <script>
+    // Function to perform the calculation based on the operator clicked
+
+    function performCalculation(operator) {
+      
+
+      let num1 = parseFloat(document.getElementById('num1').value);
+      let num2 = parseFloat(document.getElementById('num2').value);
+      let result;
+
+
+      // Perform the calculation based on the operator
+      switch (operator) {
+        case '+':
+          result = num1 + num2;
+          break;
+        case '-':
+          result = num1 - num2;
+          break;
+        case '*':
+          result = num1 * num2;
+          break;
+        case '/':
+          if (num2 === 0) {
+            document.getElementById("heading").innerHTML = "Error: Division by 0 is not allowed.";
+            return;
+          }
+          result = num1 / num2;
+          break;
+        default:
+          document.getElementById("heading").innerHTML = "Invalid operation.";
+          return;
+      }
+
+      // Display the result
+      document.getElementById("heading").innerHTML = "Result: " + result;
+    }
+  </script>
+</body>
+</html>
